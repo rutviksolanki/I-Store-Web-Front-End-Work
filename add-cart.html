@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- BOOTSTRAP CSS CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- CSS FILEPATH -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+	<!-- LINK STYLE -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- ICON CDN -->
+	<link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+	<title>Not Found 404</title>
+</head>
+<body>
+	<!-- HEADER PORTION -->
+	<div class="container-fluid header-wrapper">
+		<div class="col-xl-10 col-lg-12 row mt-5 mb-4 mx-auto d-flex align-content-center justify-content-between">
+			<div class="col-xl-3 col-lg-3 col-md-3 mb-sm-3 mb-3 col-sm-6 col-6 order-md-1 order-1 logo-portion">
+				<span class="jam jam-apple"></span>
+				<span>iStore</span>
+			</div>
+			<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 order-md-2 order-3">
+				<div class="search-box d-flex">
+					<input type="text" class="w-100" placeholder="Search Item...">
+					<button class="jam jam-search"></button>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 mb-sm-3 mb-3 col-sm-6 col-6 text-right order-md-3 order-2 add-cart">
+				<button><a href="add-cart.html" class="d-flex"><span class="material-icons-outlined">local_mall</span><span><span>&nbsp; 1 items</span><br><span>28.00 $</span></span></a></button>
+			</div>
+		</div>
+	</div>
+	<!-- / HEADER PORTION -->
+	<!-- NAVBAR PORTION -->
+	<div class="container-fluid nav-wrapper py-0">
+		<div class="col-xl-10 col-lg-12 mx-auto">
+			<nav class="pc-nav d-none d-lg-flex d-xl-flex d-md-flex align-items-center justify-content-between">
+				<ul class="m-0 p-0 d-flex">
+					<li><a href="index.html">Home</a></li>
+					<li id="shop-dropdown-link">
+						<a><span>Shop</span><span class="material-icons-outlined">expand_more</span></a>
+						<div class="col-xl-8 shop-dropdown">
+							<div class="col-xl-12 row">
+								<ul class="col-xl-4 col-lg-4 col-md-4 m-0">
+									<h6>Mobiles</h6>
+									<li><a href="product-shop.html">Simple Product</a></li>
+									<li><a href="product-shop.html">Varriable Product</a></li>
+									<li><a href="product-shop.html">Simple Product</a></li>
+									<li><a href="product-shop.html">Varriable Product</a></li>
+								</ul>
+								<ul class="col-xl-4 col-lg-4 col-md-4 m-0">
+									<h6>Mobiles</h6>
+									<li><a href="product-shop.html">Simple Product</a></li>
+									<li><a href="product-shop.html">Varriable Product</a></li>
+									<li><a href="product-shop.html">Simple Product</a></li>
+									<li><a href="product-shop.html">Varriable Product</a></li>
+								</ul>
+								<ul class="col-xl-4 col-lg-4 col-md-4 m-0">
+									<h6>Mobiles</h6>
+									<li><a href="product-shop.html">Simple Product</a></li>
+									<li><a href="product-shop.html">Varriable Product</a></li>
+									<li><a href="product-shop.html">Simple Product</a></li>
+									<li><a href="product-shop.html">Varriable Product</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li id="product-dropdown-link">
+						<a><span>Product</span><span class="material-icons-outlined">expand_more</span></a>
+						<div class="product-dropdown">
+							<ul class="m-0 p-0">
+								<li><a href="product-preview.html">Simple Product</a></li>
+								<li><a href="product-preview.html">Varriable Product</a></li>
+								<li><a href="product-preview.html">Simple Product</a></li>
+								<li><a href="product-preview.html">Varriable Product</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contect-us.html">Contect</a></li>
+					<li><a href="about-us.html">Aboutus</a></li>
+				</ul>
+				<span id="settings-dropdown-link" style="padding: 19px 0; box-sizing: border-box;">
+					<span class="material-icons-outlined mr-3">settings</span>
+					<div class="settings-dropdown">
+						<ul class="m-0 p-0">
+							<li><a href="login.html">Login</a></li>
+							<li><a href="register.html">Register</a></li>
+							<li><a href="404.html">My Account</a></li>
+						</ul>
+					</div>
+				</span>
+			</nav>
+			<nav class="mobile-nav d-flex d-xl-none d-md-none d-lg-none align-content-center justify-content-between">
+				<span class="material-icons-outlined" id="menu-btn">menu</span>
+				<div class="col-12 mobile-nav-wrapper px-4">
+					<div class="mobile-drop-down">
+						<ul>
+							<li><a href="">HOME</a></li>
+							<li><a href="">SHOP</a><span class="material-icons-outlined">add</span></li>
+							<div class="sub-dropdown">
+								<li><a href="product-shop.html">Product Shop v1</a></li>
+								<li><a href="product-shop.html">Product Shop v1</a></li>
+								<li><a href="product-shop.html">Product Shop v1</a></li>
+								<li><a href="product-shop.html">Product Shop v1</a></li>
+							</div>
+							<li><a href="">PRODUCTS</a><span class="material-icons-outlined">add</span></li>
+							<div class="sub-dropdown">
+								<li><a href="product-preview.html">Products v1</a></li>
+								<li><a href="product-preview.html">Products v1</a></li>
+								<li><a href="product-preview.html">Products v1</a></li>
+								<li><a href="product-preview.html">Products v1</a></li>
+							</div>
+							<li><a href>ACCOUNT</a><span class="material-icons-outlined">add</span></li>
+							<div class="sub-dropdown">
+								<li><a href="login.html">Login</a></li>
+								<li><a href="register.html">Register</a></li>
+								<li><a href="404.html">My Account</a></li>
+							</div>
+							<li><a href="blog.html">BLOG</a></li>
+							<li><a href="about-us.html">ABOUTUS</a></li>
+							<li><a href="contect-us.html">CONTECT</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- / NAVBAR PORTION -->
+	<div class="container-fluid bread-crumbs">
+		<div class="col-xl-12">
+			<div class="col-xl-10 mx-auto"><a href="index.html"><abbr title="Back to Home">Home</abbr></a>/<span>404 Not Found</span></div>
+		</div>
+	</div>
+	<!-- ERROR PAGE -->
+	<!-- BREAD CRUMBS -->
+	<div class="container-fluid addcart-page-wrapper py-5">
+		<div class="col-xl-10 col-lg-12 mx-auto">
+			<div class="col-12 add-to-cart d-flex flex-xl-row flex-lg-row flex-column align-items-start justify-content-between">
+				<a class="col-xl-6 col-lg-6 col-md-10 col-sm-11 col-12 mx-auto">
+					<div class="product-card-v2 row mx-auto">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-12 px-0 product-img"><img src="images/p1.png" alt=""></div>
+				  	    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-12 px-0 product-detail d-flex align-content-center justify-content-center flex-column">
+				  		   <span class="product-name">Dummy Product Name</span>
+				  		   <span class="product-price">120.00 $ <del>250.00 $</del></span>
+				  		   <span class="ratting-stars d-flex align-content-center justify-content-center">
+				    			<span class="material-icons-outlined">star_border</span>
+				    			<span class="material-icons-outlined">star_border</span>
+				    			<span class="material-icons-outlined">star_border</span>
+				    			<span class="material-icons-outlined">star_border</span>
+				    			<span class="material-icons-outlined">star_border</span>
+				    		</span>
+				    		<div class="d-flex align-items-center justify-content-around pt-3">
+				    			<button class="btn">REMOVE</button><button class="btn">CHECKOUT</button>
+				    		</div>
+				  	    </div>
+					</div>
+				</a>
+				<div class="col-xl-5 col-lg-5 col-md-10 col-sm-11 col-12 mx-auto">
+					<div class="price-details">
+						<h3>Price Details</h3>
+						<div>
+							<span>Price (2 items)</span>
+						    <span>300 $</span>
+						</div>
+						<div>
+							<span>Descounts </span>
+						    <span>10 $</span>
+						</div>
+						<div>
+							<span>Delivery Charges</span>
+						    <span>FREE</span>
+						</div>
+						<div>
+							<h6>Total Ammounts</h6>
+							<h6>300 $</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / BREAD CRUMBS -->
+	<!-- / ERROR PAGE -->
+	<!-- FOOTER -->
+	<footer>
+		<div class="container-fluid footer-wrapper py-4">
+			<div class="col-xl-10 col-12 mx-auto px-sm-0 px-xs-0">
+				<div class="col-xl-12 mx-auto">
+					<div class="footer-logo text-center">
+						<span class="jam jam-apple"></span>
+					    <span>iStore</span>
+					</div>
+					<p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. <br>It has roots in a piece of classical Latin literature.</p>
+				</div>
+				<div class="col-xl-12 row support-area px-0 mx-auto">
+					<div class="col-xl-4 px-4">
+						<div class="free-shipping d-flex align-content-center justify-content-start">
+							<div class="icons">
+								<span class="material-icons-outlined circle">fiber_manual_record</span>
+							    <span class="material-icons-outlined support-icon">local_shipping</span>
+							</div>
+							<div class="support-detail">
+								<h6>Free Shipping</h6>
+								<p>Most product are free shipping.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 px-4">
+						<div class="free-shipping d-flex align-content-center justify-content-start">
+							<div class="icons">
+								<span class="material-icons-outlined circle">fiber_manual_record</span>
+							    <span class="material-icons-outlined support-icon">face</span>
+							</div>
+							<div class="support-detail">
+								<h6>Customer Support</h6>
+								<p>24x7 Customer Support</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 px-4">
+						<div class="free-shipping d-flex align-content-center justify-content-start">
+							<div class="icons">
+								<span class="material-icons-outlined circle">fiber_manual_record</span>
+							    <span class="material-icons-outlined support-icon">admin_panel_settings</span>
+							</div>
+							<div class="support-detail">
+								<h6>Secure Payment</h6>
+								<p>Most Secure Payment for customer.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-12 row footer-middle mx-auto py-5">
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-11 col-12 mx-auto px-0">
+						<h5>Recent Post</h5>
+						<div class="post-box my-3 d-flex align-content-start">
+							<div class="img-container">
+								<img src="images/footer-img.jpg" alt="">
+							</div>
+							<div class="post-detail px-3">
+								<p>Temporibus autem quibusdam</p>
+								<span>Sep 02 , 2018</span>
+							</div>
+						</div>
+						<div class="post-box my-3 d-flex align-content-start">
+							<div class="img-container">
+								<img src="images/footer-img.jpg" alt="">
+							</div>
+							<div class="post-detail px-3">
+								<p>Temporibus autem quibusdam</p>
+								<span>Sep 02 , 2018</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-11 col-12 mx-auto">
+						<h5>Quick Links</h5>
+						<div class="quick-links my-3">
+							<li><a href="">Cart</a></li>
+							<li><a href="">Checkout</a></li>
+							<li><a href="">Tracking</a></li>
+							<li><a href="">Product</a></li>
+							<li><a href="">Blog</a></li>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-11 col-12 mx-auto">
+						<h5>Contect Us</h5>
+						<div class="contect-us my-3">
+							<p class="d-flex my-0"><span class="material-icons-outlined">location_on</span>&nbsp;&nbsp;<span>address south road 77 north, USA -9991</span></p>
+							<p class="d-flex my-0"><span class="material-icons-outlined">drafts</span>&nbsp;&nbsp;<span>info@mail.com</span></p>
+							<p class="d-flex my-0"><span class="material-icons-outlined">phone_in_talk</span>&nbsp;&nbsp;<span>123 456 789</span></p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-6 col-sm-11 col-12 mx-auto">
+						<h5>New Latter</h5>
+						<div class="news-latter my-3">
+							<p>Sed ut perspiciatis unde omnis iste</p>
+							<p>natus error sit voluptatem accusantium</p>
+							<p>doloremque laudantium.</p>
+							<div class="footer-input">
+								<input type="text" placeholder="examplexyz@gmail.com">
+								<button><span class="material-icons-outlined">send</span></button>
+							</div>
+							<div class="social-icons my-2">
+								<h5>Scial Media</h5>
+								<div class="icons d-flex">
+									<a href=""><span class="jam jam-twitter"></span></a>
+									<a href=""><span class="jam jam-instagram"></span></a>
+									<a href=""><span class="jam jam-youtube"></span></a>
+									<a href=""><span class="jam jam-whatsapp"></span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-12 px-0 coppy-right">
+			<p>Copyright © 2021 RuncodeNowThemes | Built By RuncodeNow.</p>
+		</div>
+	</footer>
+	<!-- / FOOTER -->
+	<!-- BOOTSTRAP JS CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- COSTOM  JS-->
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
